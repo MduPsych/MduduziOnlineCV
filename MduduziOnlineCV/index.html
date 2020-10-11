@@ -27,7 +27,10 @@
 </head>
 
 <body>
-    
+    <!-- loader -->
+    <div class="loader_bg">
+        <div class="loader"> </div>
+    </div>
     <!-- main -->
     <section id="main">
     <!-- nav -->
@@ -40,7 +43,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#location">Location</a></li>
             </ul>
     </nav>
 
@@ -62,9 +65,10 @@
     </div>
     
     <ul class="thumb">
-        <li><img src="/light.png" onclick="changeBgColor('yellow')"></li>
-        <li><img src="/dark.png" onclick="changeBgColor('#fff')"></li>
+        <li><img src="/dark.png" onclick="changeBgColor('#000000')"></li>
+        <li><img src="/light.png" onclick="changeBgColor('#fff')"></li>
     </ul>
+   
     </section>
     <!-- end of main section -->
 
@@ -97,7 +101,7 @@
     <!--heading-------------->
     <div class="skills-heading">
     <h1>Skills</h1>
-    <p>Here Is The Some Servies Which We Provide You.</p>
+    <p>Here Are Some Skills Which I have.</p>
     </div>
     <!--skills-box-container--------->
     <div class="skill-container">
@@ -155,112 +159,74 @@
     </section>
     <!--portfolio------------------->
     <section id="portfolio">
-    <!--heading----------->
-    <h1 class="p-heading">Portfolio</h1>
-    <!--portfolio-container------------>
-    <div class="p-container">
-    <!--portfolio-box-1-------->
-    <div class="p-box">
-    <!--text--------->
-    <div class="overlay-text">
-    <h1>G-Media</h1>
-    <p> <a href=""></a> Client Project</p> 
-    </div>
-    <!--bg-img------------->
-    <img src="/w1.png">
-     
-    </div>
-    <!--portfolio-box-2-------->
-    <div class="p-box">
-     <!--text--------->
-    <div class="overlay-text">
-    <h1>Books and Beans Systems Project</h1>
-    <p>Client Project</p> 
-    </div>
-    <!--bg-img------------->
-    <img src="/w2.PNG">
-    </div>
-    <!--portfolio-box-3-------->
-    <div class="p-box">
-    <!--text--------->
-    <div class="overlay-text">
-    <p><a href="mdupsych.github.io/CSS-site/" target="_blank">CSS CV</a></p> 
-    </div>
-    <!--bg-img------------->
-    <img src="/w3.png">
-    </div>
+        <!--heading----------->
+        <h1 class="p-heading">Portfolio</h1>
+        <!--portfolio-container------------>
+        <div class="p-container">
+        <!--portfolio-box-1-------->
+            <div class="p-box">
+                <!--text--------->
+                <div class="overlay-text">
+                    <h1>G-Media</h1>
+                    <p> <a href=""></a> Client Project</p> 
+                </div>
+            <!--bg-img------------->
+                <img src="/portfolio1.png">
+            </div>
+   
+        <!--portfolio-box-2-------->
+        <div class="p-box">
+        <!--text--------->
+            <div class="overlay-text">
+                <h1>Books and Beans Systems Project</h1>
+                <p>Client Project</p> 
+            </div>
+                <!--bg-img------------->
+             <img src="/portfolio2.PNG">
+        </div>
+        <!--portfolio-box-3-------->
+        <div class="p-box">
+            <!--text--------->
+            <div class="overlay-text">
+                <p><a href="mdupsych.github.io/CSS-site/" target="_blank">CSS CV</a></p> 
+        </div>
+    
+        <!--bg-img------------->
+        <img src="/portfolio3.png">
+        </div>
   
     </div>
-     
-    </div>
+     <!-- APIs -->
         <div>
             <h1 class="p-heading" style="text-align:center"> Instagram Feed</h1>
-        <div id="instafeed-container"></div>
-    </div>
-    <h1 class="p-heading">Twitter feed about Gadgets</h1>
-    <a class="twitter-timeline" data-width="500" data-height="500" data-theme="light" href="https://twitter.com/Gadgets360?ref_src=twsrc%5Etfw">Tweets by Gadgets360</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <!-- <div id="instafeed-container"></div> -->
+        </div>
+            
     <div>
-
+        <h1 class="p-heading">Twitter feed about Gadgets</h1>
+            <a class="twitter-timeline" data-width="500" data-height="500" data-theme="light" href="https://twitter.com/Gadgets360?ref_src=twsrc%5Etfw">Tweets by Gadgets360</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
     </section>
-
-
-
-
-
 
 
      <!-- contact section -->
     
     <!--Contact-btn------------------>
-    <section id="contact">
-    <!--heading-------------->
-    <h1 class="c-b-heading">If You Have Any Question In Your Mind ?</h1>
-    <!--btn-------->
-     <button >Contact Me</button>
-    </section>
-    
-    <!--contact-form------------------->
-    <section id="contact-form">
-    <form id="contactForm" name ="sentMessage" class="customform" method="post" action="contact_me.php">
-    <!--left--------------------------------------->
-    <div class="contact-left">
-    <h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e to me</h1>
-    <!--name-------->
-    <div class="f-name">
-    <font >Name</font>
-    <input type="text" placeholder="Full Name"/>
-    </div>
-    <!--email-------->
-    <div class="f-email">
-    <font >Email</font>
-    <input type="email" placeholder="Example@gmail.com"/>
-    </div>
-    </div>
-    <!--right------------------------------------------->
-    <div class="contact-right">
-    <!--message-------->
-    <div class="message">
-    <font >Message</font>
-    <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
-    </div>
-    <!--submit-btn------------>
-    <button>submit</button>
-    </div>
-     
-    </form>
+    <section id="location">
+        <h1 class="p-heading">Home Location</h1>
+        <!--map------------------->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.14406559527!2d27.870859451344177!3d-26.707844183133965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9459abcf86e147%3A0xaa8e155aa5dff564!2s42%20Cassandra%20Ave%2C%20Bedworth%20Park%2C%20Vereeniging%2C%201939!5e0!3m2!1sen!2sza!4v1602403973222!5m2!1sen!2sza" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
     
     </section>
     
     <script type ="text/javascript">
-        function imgSlider(anything){
-            document.querySelector('.pepsi').src =anything
-        }
-    
         function changeBgColor(color){
-            const sec = document.querySelector('.main');
+            const sec = document.querySelector('#main');
             sec.style.background = color;
         }
+   
          	  /*Responsive Navigation*/
 	    $(document).ready(function(){
 	     $('.toggle').click(function(){
