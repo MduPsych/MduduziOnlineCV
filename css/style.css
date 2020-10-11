@@ -106,7 +106,7 @@ a{
 	background-size: 1330px;
 	background-position: right bottom;
 	background-repeat: no-repeat;
-  background: url("../images/Mdu-circle.png") no-repeat left  ;
+  background: url("/Mdu-circle.png") no-repeat left  ;
   background-color: #E4F9F5;
 }
 nav{
